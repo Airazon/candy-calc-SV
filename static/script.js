@@ -109,7 +109,7 @@ function optimize( problem ) {
 
 $( document ).ready( function() {
     // read candy MILP problem
-    $.get( 'https://airazon.github.io/candy-cal-SVc/problem.txt', function( problemTemplate ) {
+    $.get( 'https://richi3f.github.io/candy-cal/problem.txt', function( problemTemplate ) {
         var i, len;
         
         // read Pokémon names and experience curves
