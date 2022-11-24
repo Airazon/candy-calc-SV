@@ -109,11 +109,11 @@ function optimize( problem ) {
 
 $( document ).ready( function() {
     // read candy MILP problem
-    $.get( 'https://richi3f.github.io/candy-calc/problem.txt', function( problemTemplate ) {
+    $.get( 'https://airazon.github.io/candy-calc/problem.txt', function( problemTemplate ) {
         var i, len;
         
         // read Pokémon names and experience curves
-        $.getJSON( 'https://richi3f.github.io/candy-calc/static/pokemon.json', function( pokemonData ) {
+        $.getJSON( 'https://airazon.github.io/candy-calc/static/pokemon.json', function( pokemonData ) {
             var slug, slugs;
 
             // add each Pokémon to the datalist 
